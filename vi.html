@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đường Nguyễn Du</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Be Vietnam Pro',sans-serif;background:#f4f7fb;color:#333}
+header{height:280px;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1400&q=80') center/cover;color:#fff;display:flex;align-items:end}
+header div{padding:24px}
+.lang{position:fixed;top:15px;right:15px;background:#fff;padding:10px 14px;border-radius:30px;text-decoration:none;color:#0b5ed7;font-weight:700;box-shadow:0 5px 15px rgba(0,0,0,.2)}
+.container{max-width:900px;margin:-35px auto 40px;padding:16px}
+.card{background:#fff;border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+iframe{width:100%;height:320px;border:0;border-radius:12px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.item,.chip{background:#eef5ff;border-radius:12px;padding:14px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.gallery img{width:100%;height:120px;object-fit:cover;border-radius:10px}
+footer{text-align:center;background:#0b5ed7;color:#fff;padding:24px}
+@media(max-width:768px){.grid,.gallery{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="lang" href="index.html">🌐 Đổi ngôn ngữ</a>
+<header><div><h1>ĐƯỜNG NGUYỄN DU</h1><p>Đại thi hào - Danh nhân văn hóa thế giới</p></div></header>
+<div class="container">
+<div class="card"><h2>📍 Địa điểm</h2><p>Phường Trường Thi, Thành phố Vinh, Nghệ An.</p>
+<iframe src="https://maps.google.com/maps?q=vinh&t=&z=14&output=embed"></iframe></div>
+<div class="card"><h2>🛣 Thông tin tuyến đường</h2><table>
+<tr><td>Điểm đầu</td><td>Đường Quang Trung</td></tr>
+<tr><td>Điểm cuối</td><td>Đường Lê Mao</td></tr>
+<tr><td>Chiều dài</td><td>1,45 km</td></tr>
+<tr><td>Lộ giới</td><td>24 m</td></tr></table></div>
+<div class="card"><h2>👤 Tiểu sử danh nhân</h2><p><b>Nguyễn Du (1765–1820)</b> là Đại thi hào dân tộc Việt Nam, tác giả Truyện Kiều và được UNESCO vinh danh là Danh nhân văn hóa thế giới. Nội dung này sẽ được thay bằng dữ liệu từ CSDL khi triển khai chính thức.</p></div>
+<div class="card"><h2>🏛 Địa điểm nổi bật</h2><div class="grid"><div class="item">Vincom Plaza</div><div class="item">Bảo tàng Xô Viết Nghệ Tĩnh</div><div class="item">Quảng trường Hồ Chí Minh</div><div class="item">Nhà hàng / OCOP</div></div></div>
+<div class="card"><h2>🛣 Đường giao cắt</h2><div class="chips"><div class="chip">Quang Trung</div><div class="chip">Lê Mao</div><div class="chip">Nguyễn Sỹ Sách</div><div class="chip">Hà Huy Tập</div></div></div>
+<div class="card"><h2>🖼 Hình ảnh</h2><div class="gallery">
+<img src="https://picsum.photos/300/200?1"><img src="https://picsum.photos/300/200?2"><img src="https://picsum.photos/300/200?3">
+</div></div>
+<div class="card"><h2>🎬 Video</h2><iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe></div>
+<div class="card"><h2>🏢 Đơn vị quản lý</h2><p>UBND Phường Trường Thi<br>Điện thoại: 0238.xxx.xxxx<br>Email: example@nghean.gov.vn</p></div>
+</div>
+<footer>Hệ thống QR Tên đường • Demo tiếng Việt</footer>
+</body></html>
